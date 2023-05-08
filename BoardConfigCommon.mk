@@ -24,6 +24,8 @@ include vendor/motorola/exynos9610-common/BoardConfigVendor.mk
 
 # BUILD_BROKEN_*
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+#ALLOW MISSING DEPENDENCIES AS TRUE
+ALLOW_MISSING_DEPENDENCIES := true
 
 ## A/B
 AB_OTA_UPDATER := true
